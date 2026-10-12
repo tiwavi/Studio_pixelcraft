@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // IMPORTANT: Replace the placeholder with your WhatsApp number including country code.
   // India example format: 91XXXXXXXXXX (digits only; do not include + or spaces).
-  const whatsappNumber = "91YOURNUMBER";
+  const whatsappNumber = "919569353447";
   const whatsappMessage = "Hi PixelCraft Studio, I'd like to discuss a website project.";
   document.querySelectorAll("[data-whatsapp]").forEach(link => {
     link.href = "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(whatsappMessage);
